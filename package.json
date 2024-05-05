@@ -11,6 +11,8 @@
     "format": "prettier -wu ."
   },
   "dependencies": {
+    "@p5-wrapper/next": "^1.0.3",
+    "@p5-wrapper/react": "^4.4.0",
     "@tailwindcss/postcss": "4.0.0-alpha.14",
     "next": "14.2.3",
     "react": "18.3.1",
@@ -21,6 +23,7 @@
     "@total-typescript/ts-reset": "0.5.1",
     "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/node": "20.12.8",
+    "@types/p5": "^1.7.6",
     "@types/react": "18.3.1",
     "@types/react-dom": "18.3.0",
     "eslint": "^8",
