@@ -1,6 +1,6 @@
 import { type Metadata } from 'next';
 
-import BubbleSnake from 'components/learn-p5/bubble-snake/BubbleSnake';
+import IntersectingBubbles from 'components/learn-p5/intersecting-bubbles/IntersectingBubbles';
 import LearnP5Sketch from 'components/learn-p5/LearnP5Sketch';
 
 // import TestSketch from 'components/test-sketch/TestSketch';
@@ -8,6 +8,7 @@ import LearnP5Sketch from 'components/learn-p5/LearnP5Sketch';
 // import CirclePatternsSketch from 'components/learn-p5/circle-patterns/CirclePatterns';
 // import BubbleInteraction from 'components/learn-p5/bubble-interaction/BubbleInteraction';
 // import BubbleRemove from 'components/learn-p5/bubble-remove/BubbleRemove';
+// import BubbleSnake from 'components/learn-p5/bubble-snake/BubbleSnake';
 
 export const metadata: Metadata = {
   title: 'Hello',
@@ -21,7 +22,8 @@ export default function HomePage() {
       {/* <CirclePatternsSketch /> */}
       {/* <BubbleInteraction /> */}
       {/* <BubbleRemove /> */}
-      <BubbleSnake />
+      {/* <BubbleSnake /> */}
+      <IntersectingBubbles />
       {/* <LearnP5Sketch /> */}
     </main>
   );
