@@ -1,7 +1,6 @@
 import { type Metadata } from 'next';
 
 import IntersectingBubbles from 'components/learn-p5/intersecting-bubbles/IntersectingBubbles';
-import LearnP5Sketch from 'components/learn-p5/LearnP5Sketch';
 
 // import TestSketch from 'components/test-sketch/TestSketch';
 // import MouseMoveSketch from 'components/learn-p5/mouse-move/MouseMove';
@@ -24,7 +23,6 @@ export default function HomePage() {
       {/* <BubbleRemove /> */}
       {/* <BubbleSnake /> */}
       <IntersectingBubbles />
-      {/* <LearnP5Sketch /> */}
     </main>
   );
 }
